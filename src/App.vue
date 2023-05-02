@@ -22,4 +22,17 @@ export default {
 
 <style lang="scss">
 @import "./style/global.scss";
+body {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #000000 50%,
+    #3f383f 110%
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #000000 50%,
+    #3f383f 110%
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 </style>
