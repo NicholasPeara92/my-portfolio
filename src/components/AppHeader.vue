@@ -8,8 +8,17 @@
           </div>
           <nav class="col-8 col-md-9 nav-col">
             <ul>
-              <li v-for="link in links">
-                <a :href="link.link">{{ link.name }}</a>
+              <li>
+                <router-link :to="{ name: 'homepage' }">HOME</router-link>
+              </li>
+              <li>
+                <router-link :to="{ name: 'about' }">ABOUT</router-link>
+              </li>
+              <li>
+                <router-link :to="{ name: 'portfolio' }">PORTFOLIO</router-link>
+              </li>
+              <li>
+                <router-link :to="{ name: 'contacts' }">CONTACTS</router-link>
               </li>
             </ul>
             <div class="navbar">

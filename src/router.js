@@ -2,7 +2,10 @@ import { createRouter, createWebHistory } from "vue-router";
 
 // Pages
 import HomePage from "./pages/HomePage.vue";
-import ContactUs from "./pages/ContactUs.vue";
+import Contacts from "./pages/Contacts.vue";
+import About from "./pages/Contacts.vue";
+import Portfolio from "./pages/Contacts.vue";
+
 import Page404 from "./pages/Page404.vue";
 
 const router = createRouter({
@@ -12,11 +15,25 @@ const router = createRouter({
       path: "/",
       name: "homepage",
       component: HomePage,
+      meta: { transition: "slide-left" },
     },
     {
-      path: "/contatti",
-      name: "contact-us",
-      component: ContactUs,
+      path: "/about",
+      name: "about",
+      component: About,
+      meta: { transition: "slide-right" },
+    },
+    {
+      path: "/portfolio",
+      name: "portfolio",
+      component: Portfolio,
+      meta: { transition: "slide-left" },
+    },
+    {
+      path: "/contacts",
+      name: "contacts",
+      component: Contacts,
+      meta: { transition: "slide-right" },
     },
     {
       path: "/:pathMatch(.*)*",
