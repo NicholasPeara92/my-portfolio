@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 // Pages
 import HomePage from "./pages/HomePage.vue";
 import Contacts from "./pages/Contacts.vue";
-import About from "./pages/Contacts.vue";
+import About from "./pages/About.vue";
 import Portfolio from "./pages/Contacts.vue";
 
 import Page404 from "./pages/Page404.vue";

@@ -79,6 +79,7 @@ header {
   right: 0;
   left: 0;
   z-index: 101;
+  background-color: inherit;
   .nav-col {
     display: flex;
     align-items: center;

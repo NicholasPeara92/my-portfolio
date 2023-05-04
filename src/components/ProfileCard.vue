@@ -43,8 +43,6 @@ export default {};
 }
 
 h2 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #737373;
   margin: 25px;
   opacity: 0;
@@ -83,7 +81,7 @@ h2:hover {
 
 .card1:hover {
   background: url("../assets/img4.jpeg") left center no-repeat;
-  background-size: 900px;
+  background-size: 970px;
 }
 
 .card1:hover h2 {

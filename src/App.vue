@@ -27,12 +27,12 @@ body {
   background: -webkit-linear-gradient(
     to right,
     #000000 50%,
-    #d5d4c2 210%
+    #d5d4c2 110%
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #000000 50%,
-    #d5d4c2 70%
+    #d5d4c2 110%
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 </style>
