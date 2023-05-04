@@ -30,8 +30,21 @@
                   <span class="line line3"></span>
                 </div>
                 <ul class="menu-items">
-                  <li v-for="link in links">
-                    <a :href="link.link">{{ link.name }}</a>
+                  <li>
+                    <router-link :to="{ name: 'homepage' }">HOME</router-link>
+                  </li>
+                  <li>
+                    <router-link :to="{ name: 'about' }">ABOUT</router-link>
+                  </li>
+                  <li>
+                    <router-link :to="{ name: 'portfolio' }"
+                      >PORTFOLIO</router-link
+                    >
+                  </li>
+                  <li>
+                    <router-link :to="{ name: 'contacts' }"
+                      >CONTACTS</router-link
+                    >
                   </li>
                 </ul>
               </div>
@@ -79,7 +92,17 @@ header {
   right: 0;
   left: 0;
   z-index: 101;
-  background-color: inherit;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #000000 50%,
+    #d5d4c2 110%
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #000000 50%,
+    #d5d4c2 110%
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   .nav-col {
     display: flex;
     align-items: center;
