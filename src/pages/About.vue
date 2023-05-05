@@ -2,24 +2,31 @@
   <div id="about">
     <section class="image"></section>
     <section class="text my-5 mx-5">
-      <h2>About Me</h2>
+      <h2 class="pb-3">About Me</h2>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
-        facilis voluptatem aliquid natus iure? Rerum porro iste neque quod
-        facilis cupiditate possimus voluptatem corrupti, quae beatae asperiores
-        omnis illo magni?
-      </p>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
-        facilis voluptatem aliquid natus iure? Rerum porro iste neque quod
-        facilis cupiditate possimus voluptatem corrupti, quae beatae asperiores
-        omnis illo magni?
-      </p>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
-        facilis voluptatem aliquid natus iure? Rerum porro iste neque quod
-        facilis cupiditate possimus voluptatem corrupti, quae beatae asperiores
-        omnis illo magni?
+        Ciao, sono Nicholas, un appassionato di tecnologia e sviluppo web. Ho
+        iniziato la mia carriera lavorativa in un campo completamente diverso,
+        ma la passione per il web mi ha portato ad abbandonare il mio lavoro e
+        dedicarmi completamente alla programmazione.
+        <br />
+        Sono specializzato in front-end development e prediligo l'utilizzo di
+        JavaScript come linguaggio di programmazione. Utilizzo principalmente il
+        framework VueJs per la creazione di interfacce utente dinamiche ed
+        interattive. Tuttavia, ho anche competenze nel back-end development
+        utilizzando PHP e il framework Laravel.
+        <br />
+        Uno dei miei obiettivi principali è quello di acquisire continuamente
+        nuove conoscenze e competenze per poter sviluppare applicazioni web
+        sempre più performanti ed innovative. Sono in grado di lavorare sia in
+        autonomia che in team, e mi piace confrontarmi con colleghi e
+        collaboratori per trovare soluzioni innovative ai problemi che
+        incontriamo durante lo sviluppo di un progetto.
+        <br />
+        Nel mio portfolio potrai trovare alcuni dei progetti ai quali ho
+        lavorato, che dimostrano le mie competenze nel campo della
+        programmazione. Sono sempre alla ricerca di nuove sfide e opportunità,
+        quindi se sei interessato a collaborare con me, non esitare a
+        contattarmi!
       </p>
     </section>
     <section class="image"></section>
@@ -72,7 +79,7 @@ export default {
 <style lang="scss" scoped>
 #about {
   margin: 0;
-  color: #a91e02;
+  color: #e3d4cc;
   padding-top: 80px;
 }
 li {

@@ -121,8 +121,9 @@ header {
 
       a {
         text-align: center;
-        color: #737373;
+        color: #d5d4c2;
         text-decoration: none;
+        transition: all 0.5s;
       }
       :hover {
         color: #8f6e5d;
