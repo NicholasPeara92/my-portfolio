@@ -17,7 +17,7 @@
         <br />
         Uno dei miei obiettivi principali è quello di acquisire continuamente
         nuove conoscenze e competenze per poter sviluppare applicazioni web
-        sempre più performanti ed innovative. Sono in grado di lavorare sia in
+        sempre più performanti e moderne. Sono in grado di lavorare sia in
         autonomia che in team, e mi piace confrontarmi con colleghi e
         collaboratori per trovare soluzioni innovative ai problemi che
         incontriamo durante lo sviluppo di un progetto.
