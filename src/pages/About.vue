@@ -30,7 +30,7 @@
       </p>
     </section>
     <section class="image"></section>
-    <div class="row justify-content-between">
+    <div id="skills" class="row justify-content-between">
       <section class="skills col row justify-content-center p-5">
         <img src="../assets/html5.svg" alt="" class="col" />
         <img src="../assets/css3.svg" alt="" class="col" />
@@ -77,10 +77,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#skills {
+  --bs-gutter-x: 0;
+}
 #about {
   margin: 0;
   color: #e3d4cc;
-  padding-top: 80px;
+  margin-top: -80px;
 }
 li {
   margin-bottom: 15px;
@@ -89,7 +92,6 @@ li {
 p {
   opacity: 0.8;
 }
-
 section {
   padding: 40px 0;
 }

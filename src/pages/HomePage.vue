@@ -4,9 +4,18 @@
       <div class="row">
         <div class="col">
           <img src="../assets/heroLogo.png" alt="" />
+        </div>
+        <div id="text-col" class="col">
+          <h1 class="title" style="--duration: 1s">
+            <span style="--delay: 0.5s">Nicholas Peara</span>
+            <span style="--delay: 1s">Web Developer</span>
+          </h1>
+          <p>
+            Sono un Full-Stack Web Developer specializzato nello sviluppo di
+            siti e applicazioni web.
+          </p>
           <a href="../assets/CV.pdf" class="btn" download>SCARICA CV</a>
         </div>
-        <div class="col"></div>
       </div>
     </div>
   </section>
@@ -17,6 +26,69 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+.title span {
+  --total: calc(var(--duration) + var(--delay));
+  position: relative;
+  display: block;
+  color: transparent;
+  overflow: hidden;
+  animation: reveal 1s var(--total) forwards;
+}
+.title span::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  background-color: black;
+  animation: rollIn var(--duration) var(--delay) forwards,
+    rollOut var(--duration) var(--total) forwards;
+}
+.title span:nth-child(2)::after {
+  border-top: 3px solid black;
+}
+@keyframes reveal {
+  to {
+    color: #d5d4c2;
+  }
+}
+@keyframes rollIn {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes rollOut {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(105%);
+  }
+}
+#text-col {
+  padding-top: 200px;
+  padding-right: 80px;
+  padding-left: 80px;
+  text-align: center;
+  h1 {
+    font-size: 64px;
+    // color: #d5d4c2;
+    span {
+      // color: black;
+      font-weight: bold;
+    }
+  }
+  p {
+    font-size: 24px;
+    color: #d5d4c2;
+  }
+}
 .btn {
   width: 200px;
   height: 2.3em;
@@ -56,9 +128,10 @@ a:hover:after {
   transition: all 0.5s;
 }
 .home {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 img {
   max-width: 800px;
+  height: 650px;
 }
 </style>
