@@ -1,99 +1,15 @@
 <template>
-  <div class="container-fluid pt-5">
-    <nav class="nav">
-      <h6 class="sm-header">Seguimi su</h6>
-      <div class="line"></div>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a href="#" class="nav-link"><i class="fa fa-instagram icon"></i></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link"><i class="fa fa-github icon"></i></a>
-        </li>
-
-        <li class="nav-item">
-          <a href="#" class="nav-link"><i class="fa fa-linkedin icon"></i></a>
-        </li>
-      </ul>
-    </nav>
+  <div id="copyright">
+    <i class="fa fa-copyright icon"> Nicholas Peara 2023</i>
   </div>
 </template>
 
 <script>
-export default {
-  name: "AppFooter",
-};
+export default {};
 </script>
 
-<style lang="scss" scoped>
-a {
-  color: #d5d4c2;
-}
-/* General styles end*/
-.nav {
-  max-width: 80rem;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  pointer-events: none;
-}
-.nav:hover {
-  pointer-events: auto;
-}
-.sm-header {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  cursor: pointer;
-  pointer-events: auto;
-  color: #d5d4c2;
-  padding-left: 20px;
-}
-.line {
-  width: 15rem;
-  height: 3px;
-  background-color: #d5d4c2;
-  margin-left: 2rem;
-  margin-right: auto;
-  transform: scaleX(0.2);
-  transform-origin: left;
-  transition: transform 0.5s;
-}
-.nav:hover .line {
-  transform: scaleX(1);
-}
-.nav-list {
-  display: flex;
-  list-style: none;
-}
-.nav-item {
-  margin-inline: 2.5rem;
-  opacity: 0;
-  transition: transform 0.5s, opacity 0.5s;
-}
-.nav-item:nth-child(odd) {
-  transform: translateY(5rem);
-}
-.nav-item:nth-child(even) {
-  transform: translateY(-5rem);
-}
-.nav:hover .nav-item {
-  opacity: 1;
-  transform: translateY(0);
-}
-.nav-link {
-  font-size: 3.6rem;
-}
-.nav-link i {
-  transition: color 0.5s;
-}
-.nav-link:hover i.fa-github {
-  color: #3b5998;
-}
-.nav-link:hover i.fa-instagram {
-  color: #dd4b39;
-}
-
-.nav-link:hover i.fa-linkedin {
-  color: #0077b5;
+<style scoped>
+#copyright {
+  padding: 20px;
 }
 </style>

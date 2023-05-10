@@ -17,15 +17,30 @@
           <a href="../assets/CV.pdf" class="btn" download>SCARICA CV</a>
         </div>
       </div>
+      <Socials />
     </div>
   </section>
 </template>
 
 <script>
-export default {};
+import Socials from "../components/Socials.vue";
+export default {
+  components: {
+    Socials,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
+.col {
+  width: 50%;
+  img {
+    width: 100%;
+    object-fit: contain;
+    max-width: 800px;
+    max-height: 650px;
+  }
+}
 .title span {
   --total: calc(var(--duration) + var(--delay));
   position: relative;
@@ -74,7 +89,7 @@ export default {};
 #text-col {
   padding-top: 200px;
   padding-right: 80px;
-  padding-left: 80px;
+  padding-left: 0;
   text-align: center;
   h1 {
     font-size: 64px;
@@ -128,10 +143,7 @@ a:hover:after {
   transition: all 0.5s;
 }
 .home {
-  margin-top: 40px;
-}
-img {
-  max-width: 800px;
-  height: 650px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 </style>
