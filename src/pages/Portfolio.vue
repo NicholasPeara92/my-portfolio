@@ -104,6 +104,15 @@ export default {
 <style lang="scss" scoped>
 .portfolio {
   padding: 100px;
+  color: #d5d4c2;
+  h1,
+  a {
+    color: #8f6e5d;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(108, 97, 69);
+  }
 }
 img {
   display: block;
@@ -113,7 +122,6 @@ img {
 .card {
   width: 400px;
   height: 450px;
-  color: white;
   perspective: 800px;
   background-color: inherit;
   border-color: transparent;
@@ -122,12 +130,13 @@ img {
   position: relative;
   height: 100%;
   transform-style: preserve-3d;
-  transition: transform 0.5s;
+  transition: transform 1s;
 }
 .card:hover .card__inner {
   transform: rotateY(-180deg);
 }
 .card__side {
+  border-radius: 10px;
   position: absolute;
   inset: 0;
   background-color: #151515;
