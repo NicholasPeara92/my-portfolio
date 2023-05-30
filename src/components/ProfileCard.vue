@@ -172,4 +172,33 @@ a {
     transform: rotate(-15deg);
   }
 }
+@media only screen and (max-width: 425px) {
+  .card {
+    width: 300px;
+    height: 410px;
+  }
+  .card1 {
+    background-size: 410px;
+  }
+  .card1:hover {
+    background-size: 550px;
+  }
+  .border {
+    height: 380px;
+    width: 260px;
+  }
+  .icons {
+    font-size: 16px;
+    position: absolute;
+    fill: #737373;
+    color: #737373;
+    top: 160px;
+    left: 20px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
 </style>

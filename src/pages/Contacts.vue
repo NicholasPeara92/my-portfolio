@@ -1,10 +1,10 @@
 <template>
   <div class="container-fluid">
     <div class="row">
-      <div class="col d-flex justify-content-start align-items-center ps-5">
+      <div class="col d-flex justify-content-center align-items-center">
         <ProfileCard />
       </div>
-      <div class="col contacts">
+      <div class="col contacts pt-5">
         <h2 class="mb-5">CONTACTS</h2>
         <ul>
           <li><i class="fa fa-envelope icon"></i> nicholas.peara@gmail.com</li>
@@ -37,7 +37,7 @@ export default {
 <style lang="scss" scoped>
 .container-fluid {
   padding-top: 120px;
-  padding-bottom: 100px;
+  margin-bottom: 50px;
   .contacts {
     color: #d5d4c2;
     ul {
@@ -50,6 +50,23 @@ export default {
           color: #8f6e5d;
         }
       }
+    }
+  }
+}
+@media only screen and (max-width: 992px) {
+  .contacts {
+    padding-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .contacts {
+    padding-left: 0;
+    padding-top: 30px;
+    text-align: center;
+
+    li {
+      font-size: 14px;
     }
   }
 }
