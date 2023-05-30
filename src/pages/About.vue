@@ -31,7 +31,9 @@
     </section>
     <section class="image"></section>
     <div id="skills" class="row justify-content-between">
-      <section class="skills col row justify-content-center p-5">
+      <section
+        class="skills col d-flex justify-content-center align-items-center"
+      >
         <img src="../assets/html5.svg" alt="" class="col" />
         <img src="../assets/css3.svg" alt="" class="col" />
         <img src="../assets/bootstrap.svg" alt="" class="col" />
@@ -77,6 +79,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
 #skills {
   --bs-gutter-x: 0;
 }
@@ -122,9 +128,30 @@ section {
 :where(h2, p) {
   margin: 0;
 }
+.row {
+  margin-right: 0;
+}
 .skills > img {
-  max-width: 8.75rem;
-  max-height: 8.75rem;
+  max-width: 5.3125rem;
+  max-height: 5.3125rem;
   margin: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .skills > img {
+    width: 5rem;
+  }
+  #skills {
+    display: block;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  h6 {
+    font-size: 14px;
+  }
+  p,
+  li {
+    font-size: 11px;
+  }
 }
 </style>
