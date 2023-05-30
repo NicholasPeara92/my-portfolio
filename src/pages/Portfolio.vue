@@ -3,7 +3,7 @@
     <h1>I MIEI PROGETTI</h1>
     <p>Vi presento alcuni dei progetti che ho realizzato.</p>
     <div class="container-fluid">
-      <div class="row justify-content-between">
+      <div class="row justify-content-center">
         <div v-for="project in projects" class="col-12 card my-5">
           <div class="card__inner">
             <div class="card__side card__side--front">
@@ -174,5 +174,10 @@ img {
   height: 30px;
   border: 2px solid #000;
   border-radius: 50%;
+}
+@media only screen and (max-width: 768px) {
+  .portfolio {
+    padding: 100px 10px 10px 10px;
+  }
 }
 </style>
