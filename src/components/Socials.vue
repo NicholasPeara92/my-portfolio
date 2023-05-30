@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid pt-5">
+  <div class="container-fluid pt-4">
     <nav class="nav">
       <h6 class="sm-header">Seguimi su</h6>
       <div class="line"></div>
@@ -51,6 +51,7 @@ a {
   pointer-events: auto;
   color: #d5d4c2;
   padding-left: 20px;
+  margin-bottom: 0;
 }
 .line {
   width: 15rem;
@@ -68,6 +69,7 @@ a {
 .nav-list {
   display: flex;
   list-style: none;
+  margin-bottom: 0;
 }
 .nav-item {
   margin-inline: 2rem;
@@ -99,5 +101,33 @@ a {
 
 .nav-link:hover i.fa-linkedin {
   color: #0077b5;
+}
+@media only screen and (max-width: 768px) {
+  .sm-header {
+    font-size: 1rem;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  .nav-link {
+    font-size: 2rem;
+  }
+  .nav-item {
+    margin-inline: 0.5rem;
+  }
+  .nav-list {
+    padding-left: 0;
+  }
+  .line {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .sm-header {
+    margin-bottom: 5px;
+  }
+  .line {
+    margin-left: 0;
+  }
 }
 </style>

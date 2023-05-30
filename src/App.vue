@@ -35,4 +35,19 @@ body {
     #d5d4c2 110%
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+@media only screen and (max-width: 768px) {
+  body {
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to bottom,
+      #000000 50%,
+      #d5d4c2 110%
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      #000000 50%,
+      #d5d4c2 110%
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+}
 </style>

@@ -266,4 +266,9 @@ header {
 .nav-container input[type="checkbox"]:checked ~ .logo {
   display: none;
 }
+@media only screen and (max-width: 768px) {
+  header {
+    background: #000000;
+  }
+}
 </style>

@@ -11,13 +11,13 @@
           <li><i class="fa fa-phone icon"></i> +39 3472541305</li>
           <li>
             <i class="fa fa-instagram icon"></i>
-            instagram.com/nicholasp_92
+            nicholasp_92
           </li>
           <li>
             <i class="fa fa-linkedin icon"></i>
-            linkedin.com/in/nicholas-peara-451010210/
+            Nicholas Peara
           </li>
-          <li><i class="fa fa-github icon"></i> github.com/NicholasPeara92</li>
+          <li><i class="fa fa-github icon"></i> NicholasPeara92</li>
         </ul>
       </div>
     </div>

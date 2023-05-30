@@ -2,10 +2,13 @@
   <section class="home">
     <div class="container-fluid">
       <div class="row">
-        <div class="col">
+        <div class="col justify-content-center align-items-center">
           <img src="../assets/heroLogo.png" alt="" />
         </div>
-        <div id="text-col" class="col">
+        <div
+          id="text-col"
+          class="col-12 col-md-6 justify-content-center align-items-center"
+        >
           <h1 class="title" style="--duration: 1s">
             <span style="--delay: 0.5s">Nicholas Peara</span>
             <span style="--delay: 1s">Web Developer</span>
@@ -92,7 +95,7 @@ export default {
   padding-left: 0;
   text-align: center;
   h1 {
-    font-size: 64px;
+    font-size: 4rem;
     // color: #d5d4c2;
     span {
       // color: black;
@@ -100,7 +103,7 @@ export default {
     }
   }
   p {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #d5d4c2;
   }
 }
@@ -145,5 +148,41 @@ a:hover:after {
 .home {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+@media only screen and (max-width: 1199px) {
+  #text-col {
+    padding-top: 100px;
+    padding-right: 0;
+    h1 {
+      font-size: 3rem;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-bottom: 15px;
+      span {
+        padding-top: 5px;
+      }
+    }
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  #text-col {
+    padding-top: 0;
+    padding-right: 0;
+    h1 {
+      font-size: 2rem;
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-bottom: 15px;
+      span {
+        padding-top: 5px;
+      }
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
 }
 </style>
