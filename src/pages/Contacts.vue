@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     <div class="row">
-      <div class="col d-flex justify-content-center align-items-center">
+      <div class="col d-flex align-items-center">
         <ProfileCard />
       </div>
       <div class="col contacts pt-5">
@@ -35,6 +35,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.d-flex {
+  justify-content: center;
+}
 .container-fluid {
   padding-top: 120px;
   margin-bottom: 50px;
@@ -51,6 +54,12 @@ export default {
         }
       }
     }
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .d-flex {
+    justify-content: flex-start;
+    padding-left: 50px;
   }
 }
 @media only screen and (max-width: 992px) {
