@@ -29,29 +29,31 @@
             </div>
           </div>
         </div>
-        <div class="card__inner">
-          <div class="card__side card__side--front">
-            <div class="card__image-wrapper">
-              <img
-                src="/src/assets/Discord.png"
-                alt="discord"
-                class="card__image"
-              />
+        <div class="col-12 card my-5">
+          <div class="card__inner">
+            <div class="card__side card__side--front">
+              <div class="card__image-wrapper">
+                <img
+                  src="/src/assets/Discord.png"
+                  alt="discord"
+                  class="card__image"
+                />
+              </div>
+              <div class="card__body card__body--flex">
+                <h2 class="card__title">discord</h2>
+                <span class="card__arrow">&rarr;</span>
+              </div>
             </div>
-            <div class="card__body card__body--flex">
-              <h2 class="card__title">discord</h2>
-              <span class="card__arrow">&rarr;</span>
-            </div>
-          </div>
-          <div class="card__side card__side--back">
-            <div class="card__body">
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dolorem quia quam delectus voluptatem quis illum. Itaque, optio
-                voluptates inventore atque minus saepe dolor maiores quasi
-                numquam ipsa labore sit tempora!
-              </p>
-              <a href="#">Vai al GITHUB</a>
+            <div class="card__side card__side--back">
+              <div class="card__body">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Dolorem quia quam delectus voluptatem quis illum. Itaque,
+                  optio voluptates inventore atque minus saepe dolor maiores
+                  quasi numquam ipsa labore sit tempora!
+                </p>
+                <a href="#">Vai al GITHUB</a>
+              </div>
             </div>
           </div>
         </div>
