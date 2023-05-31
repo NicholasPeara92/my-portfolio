@@ -51,49 +51,49 @@ export default {
           description:
             "Creazione della schermata principale dell'omonima web app con ricerca delle chat per nome, possibilità di interazione con le varie chat e aggiornamento delle date in base alle interazioni avvenute con l'utente. Linguaggi utilizzati: HTML, CSS, JAVASCRIPT.",
           repo: "https://github.com/NicholasPeara92/vue-boolzapp",
-          img: "../src/assets/projects/WhatsApp.png",
+          img: "../src/assets/WhatsApp.png",
         },
         {
           name: "Design Agency",
           description:
             "Riproduzione dell' homepage di un sito utilizzando HTML, CSS, VUEJS.",
           repo: "https://github.com/NicholasPeara92/proj-html-vuejs",
-          img: "../src/assets/projects/WebAgency.png",
+          img: "../src/assets/WebAgency.png",
         },
         {
           name: "Netflix",
           description:
             "Creazione di una sezione di ricerca ispirata al famoso sito utilizzando chiamate API attraverso AXIOS.",
           repo: "https://github.com/NicholasPeara92/vite-boolflix",
-          img: "../src/assets/projects/Netflix.png",
+          img: "../src/assets/Netflix.png",
         },
         {
           name: "Deliveroo",
           description:
             "Progetto realizzato in team rivisitando il il sito di delivery. Il sito fornisce all'utente la possibilità di ricercare il suo ristorante preferito filtrando per tipo e ordinare le sue pietanze desiderate. Al termine del form dei propri dati e la conferma del pagamento viene inviata una mail di conferma dell'ordine all'utente. Una seconda sezione è dedicata invece ai ristoratori dove possono registrarsi al sito, inserire i propri ristoranti e i menù, avere un recap degli ordini ricevuti dai clienti. Il tutto è stato realizzato in due parti: front-end con VUEJS, back-end con LARAVEL e il datababase con MYSQL.",
           repo: "https://github.com/NicholasPeara92/deliveboo-front",
-          img: "../src/assets/projects/Deliveroo.png",
+          img: "../src/assets/Deliveroo.png",
         },
         {
           name: "DC Comics",
           description:
             "Riproduzione della sezione comics del sito DC utilizzando LARAVEL e chiamate API per fornire la lista dei vari comics.",
           repo: "https://github.com/NicholasPeara92/laravel-dc-comics",
-          img: "../src/assets/projects/DCcomics.png",
+          img: "../src/assets/DCcomics.png",
         },
         {
           name: "Dropbox",
           description:
             "Riproduzione della homepage del famoso sito utilizzando HTML e CSS.",
           repo: "https://github.com/NicholasPeara92/htmlcss-dropbox",
-          img: "../src/assets/projects/Dropbox.png",
+          img: "../src/assets/Dropbox.png",
         },
         {
           name: "Spotify Web",
           description:
             "Copia della famosa web app di streaming musicale utilizzando HTML, CSS e bootstrap.",
           repo: "https://github.com/NicholasPeara92/html-css-spotifyweb",
-          img: "../src/assets/projects/SpotifyWeb.png",
+          img: "../src/assets/SpotifyWeb.png",
         },
       ],
     };
