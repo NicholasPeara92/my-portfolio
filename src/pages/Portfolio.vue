@@ -33,7 +33,7 @@
           <div class="card__side card__side--front">
             <div class="card__image-wrapper">
               <img
-                src="../src/assets/Discord.png"
+                src="/src/assets/Discord.png"
                 alt="discord"
                 class="card__image"
               />
@@ -46,7 +46,10 @@
           <div class="card__side card__side--back">
             <div class="card__body">
               <p>
-                {{ project.description }}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Dolorem quia quam delectus voluptatem quis illum. Itaque, optio
+                voluptates inventore atque minus saepe dolor maiores quasi
+                numquam ipsa labore sit tempora!
               </p>
               <a href="#">Vai al GITHUB</a>
             </div>
