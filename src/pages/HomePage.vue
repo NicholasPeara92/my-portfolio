@@ -17,7 +17,9 @@
             Sono un Full-Stack Web Developer specializzato nello sviluppo di
             siti e applicazioni web.
           </p>
-          <a href="../assets/CV.pdf" class="btn" target="_blank">APRI CV</a>
+          <a href="my-portfolio/src/assets/CV.pdf" class="btn" download
+            >DOWNLOAD CV</a
+          >
         </div>
       </div>
       <Socials />
