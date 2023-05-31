@@ -216,7 +216,7 @@
             <div class="card__side card__side--front">
               <div class="card__image-wrapper">
                 <img
-                  src="/src/assets/SpotifyWeb.png"
+                  src="/src/assets/Spotifyweb.png"
                   alt="Spotify Web"
                   class="card__image"
                 />
