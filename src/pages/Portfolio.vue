@@ -44,7 +44,7 @@ export default {
           description:
             "Riproduzione della homepage del sito utilizzando HTML e CSS.",
           repo: "https://github.com/NicholasPeara92/htmlcss-discord",
-          img: "../src/assets/projects/Discord.png",
+          img: "../src/assets/Discord.png",
         },
         {
           name: "WhatsApp",
