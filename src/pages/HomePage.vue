@@ -18,7 +18,7 @@
             siti e applicazioni web.
           </p>
           <a href="my-portfolio/src/assets/CV.pdf" class="btn" download
-            >DOWNLOAD CV</a
+            >SCARICA CV</a
           >
         </div>
       </div>
