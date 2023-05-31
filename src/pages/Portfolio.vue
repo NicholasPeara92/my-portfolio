@@ -36,22 +36,23 @@
             <div class="card__side card__side--front">
               <div class="card__image-wrapper">
                 <img
-                  src="/src/assets/Discord.png"
-                  alt="discord"
+                  src="/src/assets/Dropbox.png"
+                  alt="Dropbox"
                   class="card__image"
                 />
               </div>
               <div class="card__body card__body--flex">
-                <h2 class="card__title">discord</h2>
+                <h2 class="card__title">Dropbox</h2>
                 <span class="card__arrow">&rarr;</span>
               </div>
             </div>
             <div class="card__side card__side--back">
               <div class="card__body">
                 <p>
-                  Riproduzione della homepage del sito utilizzando HTML e CSS.
+                  Riproduzione della homepage del famoso sito utilizzando HTML e
+                  CSS.
                 </p>
-                <a href="https://github.com/NicholasPeara92/htmlcss-discord"
+                <a href="https://github.com/NicholasPeara92/htmlcss-dropbox"
                   >Vai al GITHUB</a
                 >
               </div>
@@ -63,22 +64,23 @@
             <div class="card__side card__side--front">
               <div class="card__image-wrapper">
                 <img
-                  src="/src/assets/Discord.png"
-                  alt="discord"
+                  src="/src/assets/DCcomics.png"
+                  alt="DC Comics"
                   class="card__image"
                 />
               </div>
               <div class="card__body card__body--flex">
-                <h2 class="card__title">discord</h2>
+                <h2 class="card__title">DC Comics</h2>
                 <span class="card__arrow">&rarr;</span>
               </div>
             </div>
             <div class="card__side card__side--back">
               <div class="card__body">
                 <p>
-                  Riproduzione della homepage del sito utilizzando HTML e CSS.
+                  Riproduzione della sezione comics del sito DC utilizzando
+                  LARAVEL e chiamate API per fornire la lista dei vari comics.
                 </p>
-                <a href="https://github.com/NicholasPeara92/htmlcss-discord"
+                <a href="https://github.com/NicholasPeara92/laravel-dc-comics"
                   >Vai al GITHUB</a
                 >
               </div>
@@ -90,22 +92,32 @@
             <div class="card__side card__side--front">
               <div class="card__image-wrapper">
                 <img
-                  src="/src/assets/Discord.png"
-                  alt="discord"
+                  src="/src/assets/Deliveroo.png"
+                  alt="Deliveroo"
                   class="card__image"
                 />
               </div>
               <div class="card__body card__body--flex">
-                <h2 class="card__title">discord</h2>
+                <h2 class="card__title">Deliveroo</h2>
                 <span class="card__arrow">&rarr;</span>
               </div>
             </div>
             <div class="card__side card__side--back">
               <div class="card__body">
                 <p>
-                  Riproduzione della homepage del sito utilizzando HTML e CSS.
+                  Progetto realizzato in team rivisitando il il sito di
+                  delivery. Il sito fornisce all'utente la possibilità di
+                  ricercare il suo ristorante preferito filtrando per tipo e
+                  ordinare le sue pietanze desiderate. Al termine del form dei
+                  propri dati e la conferma del pagamento viene inviata una mail
+                  di conferma dell'ordine all'utente. Una seconda sezione è
+                  dedicata invece ai ristoratori dove possono registrarsi al
+                  sito, inserire i propri ristoranti e i menù, avere un recap
+                  degli ordini ricevuti dai clienti. Il tutto è stato realizzato
+                  in due parti: front-end con VUEJS, back-end con LARAVEL e il
+                  datababase con MYSQL.
                 </p>
-                <a href="https://github.com/NicholasPeara92/htmlcss-discord"
+                <a href="https://github.com/NicholasPeara92/deliveboo-front"
                   >Vai al GITHUB</a
                 >
               </div>
@@ -117,22 +129,23 @@
             <div class="card__side card__side--front">
               <div class="card__image-wrapper">
                 <img
-                  src="/src/assets/Discord.png"
-                  alt="discord"
+                  src="/src/assets/Netflix.png"
+                  alt="Netflix"
                   class="card__image"
                 />
               </div>
               <div class="card__body card__body--flex">
-                <h2 class="card__title">discord</h2>
+                <h2 class="card__title">Netflix</h2>
                 <span class="card__arrow">&rarr;</span>
               </div>
             </div>
             <div class="card__side card__side--back">
               <div class="card__body">
                 <p>
-                  Riproduzione della homepage del sito utilizzando HTML e CSS.
+                  Creazione di una sezione di ricerca ispirata al famoso sito
+                  utilizzando chiamate API attraverso AXIOS.
                 </p>
-                <a href="https://github.com/NicholasPeara92/htmlcss-discord"
+                <a href="https://github.com/NicholasPeara92/vite-boolflix"
                   >Vai al GITHUB</a
                 >
               </div>
@@ -144,22 +157,23 @@
             <div class="card__side card__side--front">
               <div class="card__image-wrapper">
                 <img
-                  src="/src/assets/Discord.png"
-                  alt="discord"
+                  src="/src/assets/WebAgency.png"
+                  alt="Design Agency"
                   class="card__image"
                 />
               </div>
               <div class="card__body card__body--flex">
-                <h2 class="card__title">discord</h2>
+                <h2 class="card__title">Design Agency</h2>
                 <span class="card__arrow">&rarr;</span>
               </div>
             </div>
             <div class="card__side card__side--back">
               <div class="card__body">
                 <p>
-                  Riproduzione della homepage del sito utilizzando HTML e CSS.
+                  Riproduzione dell' homepage di un sito utilizzando HTML, CSS,
+                  VUEJS.
                 </p>
-                <a href="https://github.com/NicholasPeara92/htmlcss-discord"
+                <a href="https://github.com/NicholasPeara92/proj-html-vuejs"
                   >Vai al GITHUB</a
                 >
               </div>
@@ -171,22 +185,54 @@
             <div class="card__side card__side--front">
               <div class="card__image-wrapper">
                 <img
-                  src="/src/assets/Discord.png"
-                  alt="discord"
+                  src="/src/assets/WhatsApp.png"
+                  alt="WhatsApp"
                   class="card__image"
                 />
               </div>
               <div class="card__body card__body--flex">
-                <h2 class="card__title">discord</h2>
+                <h2 class="card__title">WhatsApp</h2>
                 <span class="card__arrow">&rarr;</span>
               </div>
             </div>
             <div class="card__side card__side--back">
               <div class="card__body">
                 <p>
-                  Riproduzione della homepage del sito utilizzando HTML e CSS.
+                  Creazione della schermata principale dell'omonima web app con
+                  ricerca delle chat per nome, possibilità di interazione con le
+                  varie chat e aggiornamento delle date in base alle interazioni
+                  avvenute con l'utente. Linguaggi utilizzati: HTML, CSS,
+                  JAVASCRIPT.
                 </p>
-                <a href="https://github.com/NicholasPeara92/htmlcss-discord"
+                <a href="https://github.com/NicholasPeara92/vue-boolzapp"
+                  >Vai al GITHUB</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 card my-5">
+          <div class="card__inner">
+            <div class="card__side card__side--front">
+              <div class="card__image-wrapper">
+                <img
+                  src="/src/assets/SpotifyWeb.png"
+                  alt="Spotify Web"
+                  class="card__image"
+                />
+              </div>
+              <div class="card__body card__body--flex">
+                <h2 class="card__title">Spotify Web</h2>
+                <span class="card__arrow">&rarr;</span>
+              </div>
+            </div>
+            <div class="card__side card__side--back">
+              <div class="card__body">
+                <p>
+                  Copia della famosa web app di streaming musicale utilizzando
+                  HTML, CSS e bootstrap.
+                </p>
+                <a href="https://github.com/NicholasPeara92/html-css-spotifyweb"
                   >Vai al GITHUB</a
                 >
               </div>
@@ -199,70 +245,7 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      projects: [
-        {
-          name: "Discord",
-          description:
-            "Riproduzione della homepage del sito utilizzando HTML e CSS.",
-          repo: "https://github.com/NicholasPeara92/htmlcss-discord",
-          img: "../src/assets/Discord.png",
-        },
-        {
-          name: "WhatsApp",
-          description:
-            "Creazione della schermata principale dell'omonima web app con ricerca delle chat per nome, possibilità di interazione con le varie chat e aggiornamento delle date in base alle interazioni avvenute con l'utente. Linguaggi utilizzati: HTML, CSS, JAVASCRIPT.",
-          repo: "https://github.com/NicholasPeara92/vue-boolzapp",
-          img: "../src/assets/WhatsApp.png",
-        },
-        {
-          name: "Design Agency",
-          description:
-            "Riproduzione dell' homepage di un sito utilizzando HTML, CSS, VUEJS.",
-          repo: "https://github.com/NicholasPeara92/proj-html-vuejs",
-          img: "../src/assets/WebAgency.png",
-        },
-        {
-          name: "Netflix",
-          description:
-            "Creazione di una sezione di ricerca ispirata al famoso sito utilizzando chiamate API attraverso AXIOS.",
-          repo: "https://github.com/NicholasPeara92/vite-boolflix",
-          img: "../src/assets/Netflix.png",
-        },
-        {
-          name: "Deliveroo",
-          description:
-            "Progetto realizzato in team rivisitando il il sito di delivery. Il sito fornisce all'utente la possibilità di ricercare il suo ristorante preferito filtrando per tipo e ordinare le sue pietanze desiderate. Al termine del form dei propri dati e la conferma del pagamento viene inviata una mail di conferma dell'ordine all'utente. Una seconda sezione è dedicata invece ai ristoratori dove possono registrarsi al sito, inserire i propri ristoranti e i menù, avere un recap degli ordini ricevuti dai clienti. Il tutto è stato realizzato in due parti: front-end con VUEJS, back-end con LARAVEL e il datababase con MYSQL.",
-          repo: "https://github.com/NicholasPeara92/deliveboo-front",
-          img: "../src/assets/Deliveroo.png",
-        },
-        {
-          name: "DC Comics",
-          description:
-            "Riproduzione della sezione comics del sito DC utilizzando LARAVEL e chiamate API per fornire la lista dei vari comics.",
-          repo: "https://github.com/NicholasPeara92/laravel-dc-comics",
-          img: "../src/assets/DCcomics.png",
-        },
-        {
-          name: "Dropbox",
-          description:
-            "Riproduzione della homepage del famoso sito utilizzando HTML e CSS.",
-          repo: "https://github.com/NicholasPeara92/htmlcss-dropbox",
-          img: "../src/assets/Dropbox.png",
-        },
-        {
-          name: "Spotify Web",
-          description:
-            "Copia della famosa web app di streaming musicale utilizzando HTML, CSS e bootstrap.",
-          repo: "https://github.com/NicholasPeara92/html-css-spotifyweb",
-          img: "../src/assets/SpotifyWeb.png",
-        },
-      ],
-    };
-  },
-};
+export default {};
 </script>
 
 <style lang="scss" scoped>
