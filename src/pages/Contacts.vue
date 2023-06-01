@@ -40,7 +40,7 @@ export default {
 }
 .container-fluid {
   padding-top: 120px;
-  margin-bottom: 50px;
+  margin-bottom: 90px;
   .contacts {
     color: #d5d4c2;
     ul {

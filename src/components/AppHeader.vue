@@ -230,12 +230,14 @@ header {
 
 .navbar .menu-items {
   margin-top: 80px;
-  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.116);
-  width: 150%;
+  background-color: rgb(3, 3, 3, 0.8);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0.1px;
   transform: translate(-150%);
   display: flex;
   flex-direction: column;
-  margin-left: -90px;
   transition: transform 0.5s ease-in-out;
   text-align: center;
   padding-left: 0;
