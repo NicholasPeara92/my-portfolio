@@ -23,26 +23,48 @@
             </ul>
             <div class="navbar">
               <div class="container nav-container">
-                <input class="checkbox" type="checkbox" name="" id="" />
-                <div class="hamburger-lines">
+                <input
+                  class="checkbox"
+                  type="checkbox"
+                  name=""
+                  id=""
+                  v-model="menuOpen"
+                />
+                <label
+                  class="hamburger-lines"
+                  :class="{ open: menuOpen }"
+                  for=""
+                >
                   <span class="line line1"></span>
                   <span class="line line2"></span>
                   <span class="line line3"></span>
-                </div>
-                <ul class="menu-items">
+                </label>
+                <ul class="menu-items" :class="{ 'menu-items-open': menuOpen }">
                   <li>
-                    <router-link :to="{ name: 'homepage' }">HOME</router-link>
+                    <router-link
+                      :to="{ name: 'homepage' }"
+                      @click.native="closeMenu"
+                      >HOME</router-link
+                    >
                   </li>
                   <li>
-                    <router-link :to="{ name: 'about' }">ABOUT</router-link>
+                    <router-link
+                      :to="{ name: 'about' }"
+                      @click.native="closeMenu"
+                      >ABOUT</router-link
+                    >
                   </li>
                   <li>
-                    <router-link :to="{ name: 'portfolio' }"
+                    <router-link
+                      :to="{ name: 'portfolio' }"
+                      @click.native="closeMenu"
                       >PORTFOLIO</router-link
                     >
                   </li>
                   <li>
-                    <router-link :to="{ name: 'contacts' }"
+                    <router-link
+                      :to="{ name: 'contacts' }"
+                      @click.native="closeMenu"
                       >CONTACTS</router-link
                     >
                   </li>
@@ -61,6 +83,7 @@ export default {
   name: "AppHeader",
   data() {
     return {
+      menuOpen: false,
       links: [
         {
           name: "HOME",
@@ -80,6 +103,11 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    closeMenu() {
+      this.menuOpen = false;
+    },
   },
 };
 </script>
@@ -267,6 +295,20 @@ header {
 
 .nav-container input[type="checkbox"]:checked ~ .logo {
   display: none;
+}
+.open .line1 {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.open .line2 {
+  opacity: 0;
+}
+
+.open .line3 {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+.menu-items-open {
+  transform: translateX(0);
 }
 @media only screen and (max-width: 768px) {
   header {
