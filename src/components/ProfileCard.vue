@@ -6,16 +6,22 @@
         <a
           href="https://www.instagram.com/nicholasp_92/"
           class="icon icon--instagram"
+          target="_blank"
         >
           <i class="fa fa-instagram icon" aria-hidden="true"></i>
         </a>
-        <a href="https://github.com/NicholasPeara92" class="icon icon--github">
+        <a
+          href="https://github.com/NicholasPeara92"
+          class="icon icon--github"
+          target="_blank"
+        >
           <i class="fa fa-github icon" aria-hidden="true"></i>
         </a>
 
         <a
           href="https://www.linkedin.com/in/nicholas-peara-451010210/"
           class="icon icon--linkedin"
+          target="_blank"
         >
           <i class="fa fa-linkedin icon" aria-hidden="true"> </i>
         </a>

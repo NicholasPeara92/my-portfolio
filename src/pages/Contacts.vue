@@ -7,17 +7,46 @@
       <div class="col contacts pt-5">
         <h2 class="mb-5">CONTACTS</h2>
         <ul>
-          <li><i class="fa fa-envelope icon"></i> nicholas.peara@gmail.com</li>
-          <li><i class="fa fa-phone icon"></i> +39 3472541305</li>
+          <li>
+            <i class="fa fa-envelope icon"></i>
+            <a href="mailto:nicholas.peara@gmail.com">
+              nicholas.peara@gmail.com</a
+            >
+          </li>
+          <li>
+            <i class="fa fa-phone icon"></i>
+            <a href="tel:+393472541305"> +39 3472541305</a>
+          </li>
           <li>
             <i class="fa fa-instagram icon"></i>
-            nicholasp_92
+            <a
+              href="https://www.instagram.com/nicholasp_92/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              nicholasp_92</a
+            >
           </li>
           <li>
             <i class="fa fa-linkedin icon"></i>
-            Nicholas Peara
+            <a
+              href="https://www.linkedin.com/in/nicholas-peara-451010210/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Nicholas Peara</a
+            >
           </li>
-          <li><i class="fa fa-github icon"></i> NicholasPeara92</li>
+          <li>
+            <i class="fa fa-github icon"></i>
+            <a
+              href="https://github.com/NicholasPeara92"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              NicholasPeara92</a
+            >
+          </li>
         </ul>
       </div>
     </div>
@@ -41,14 +70,20 @@ export default {
 .container-fluid {
   padding-top: 120px;
   margin-bottom: 90px;
-  .contacts {
+  .contacts,
+  a {
     color: #d5d4c2;
+    text-decoration: none;
+    transition: all 0.5s;
     ul {
       list-style: none;
       font-size: 1.8rem;
       padding-left: 0;
       li {
         margin-bottom: 40px;
+        a:hover {
+          color: #8f6e5d;
+        }
         i {
           color: #8f6e5d;
         }

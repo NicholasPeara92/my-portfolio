@@ -24,7 +24,9 @@
                 <p>
                   Riproduzione della homepage del sito utilizzando HTML e CSS.
                 </p>
-                <a href="https://github.com/NicholasPeara92/htmlcss-discord"
+                <a
+                  href="https://github.com/NicholasPeara92/htmlcss-discord"
+                  target="_blank"
                   >Vai al GITHUB</a
                 >
               </div>
@@ -52,7 +54,9 @@
                   Riproduzione della homepage del famoso sito utilizzando HTML e
                   CSS.
                 </p>
-                <a href="https://github.com/NicholasPeara92/htmlcss-dropbox"
+                <a
+                  href="https://github.com/NicholasPeara92/htmlcss-dropbox"
+                  target="_blank"
                   >Vai al GITHUB</a
                 >
               </div>
@@ -80,7 +84,9 @@
                   Riproduzione della sezione comics del sito DC utilizzando
                   LARAVEL e chiamate API per fornire la lista dei vari comics.
                 </p>
-                <a href="https://github.com/NicholasPeara92/laravel-dc-comics"
+                <a
+                  href="https://github.com/NicholasPeara92/laravel-dc-comics"
+                  target="_blank"
                   >Vai al GITHUB</a
                 >
               </div>
@@ -117,7 +123,9 @@
                   in due parti: front-end con VUEJS, back-end con LARAVEL e il
                   datababase con MYSQL.
                 </p>
-                <a href="https://github.com/NicholasPeara92/deliveboo-front"
+                <a
+                  href="https://github.com/NicholasPeara92/deliveboo-front"
+                  target="_blank"
                   >Vai al GITHUB</a
                 >
               </div>
@@ -145,7 +153,9 @@
                   Creazione di una sezione di ricerca ispirata al famoso sito
                   utilizzando chiamate API attraverso AXIOS.
                 </p>
-                <a href="https://github.com/NicholasPeara92/vite-boolflix"
+                <a
+                  href="https://github.com/NicholasPeara92/vite-boolflix"
+                  target="_blank"
                   >Vai al GITHUB</a
                 >
               </div>
@@ -204,7 +214,9 @@
                   avvenute con l'utente. Linguaggi utilizzati: HTML, CSS,
                   JAVASCRIPT.
                 </p>
-                <a href="https://github.com/NicholasPeara92/vue-boolzapp"
+                <a
+                  href="https://github.com/NicholasPeara92/vue-boolzapp"
+                  target="_blank"
                   >Vai al GITHUB</a
                 >
               </div>
@@ -232,7 +244,9 @@
                   Copia della famosa web app di streaming musicale utilizzando
                   HTML, CSS e bootstrap.
                 </p>
-                <a href="https://github.com/NicholasPeara92/html-css-spotifyweb"
+                <a
+                  href="https://github.com/NicholasPeara92/html-css-spotifyweb"
+                  target="_blank"
                   >Vai al GITHUB</a
                 >
               </div>

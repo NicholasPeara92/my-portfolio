@@ -17,7 +17,7 @@
             Sono un Full-Stack Web Developer specializzato nello sviluppo di
             siti e applicazioni web.
           </p>
-          <a href="#" @click="openCV()" class="btn">APRI CV</a>
+          <a href="#" @click="openCV()" class="btn" target="_blank">APRI CV</a>
         </div>
       </div>
       <Socials />
@@ -76,7 +76,7 @@ export default {
 }
 @keyframes reveal {
   to {
-    color: #d5d4c2;
+    color: #836556;
   }
 }
 @keyframes rollIn {

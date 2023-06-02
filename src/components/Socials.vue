@@ -5,12 +5,18 @@
       <div class="line"></div>
       <ul class="nav-list">
         <li class="nav-item">
-          <a href="https://www.instagram.com/nicholasp_92/" class="nav-link"
+          <a
+            href="https://www.instagram.com/nicholasp_92/"
+            class="nav-link"
+            target="_blank"
             ><i class="fa fa-instagram icon"></i
           ></a>
         </li>
         <li class="nav-item">
-          <a href="https://github.com/NicholasPeara92" class="nav-link"
+          <a
+            href="https://github.com/NicholasPeara92"
+            class="nav-link"
+            target="_blank"
             ><i class="fa fa-github icon"></i
           ></a>
         </li>
@@ -19,6 +25,7 @@
           <a
             href="https://www.linkedin.com/in/nicholas-peara-451010210/"
             class="nav-link"
+            target="_blank"
             ><i class="fa fa-linkedin icon"></i
           ></a>
         </li>
