@@ -70,6 +70,9 @@ export default {
 .container-fluid {
   padding-top: 120px;
   margin-bottom: 90px;
+  h2 {
+    color: #8f6e5d;
+  }
   .contacts,
   a {
     color: #d5d4c2;

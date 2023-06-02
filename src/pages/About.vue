@@ -154,4 +154,8 @@ section {
     font-size: 11px;
   }
 }
+h2,
+h6 {
+  color: #8f6e5d;
+}
 </style>
