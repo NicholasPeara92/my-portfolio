@@ -17,7 +17,14 @@
             Sono un Full-Stack Web Developer specializzato nello sviluppo di
             siti e applicazioni web.
           </p>
-          <a href="#" @click="openCV()" class="btn">APRI CV</a>
+          <a
+            href="../assets/CV.pdf"
+            @click="openCV()"
+            class="btn"
+            target="_blank"
+            rel="noopener"
+            >APRI CV</a
+          >
         </div>
       </div>
       <Socials />
@@ -34,7 +41,7 @@ export default {
   },
   methods: {
     openCV() {
-      window.location.href = CV;
+      window.open(CV, "_blank");
     },
   },
 };
