@@ -17,7 +17,7 @@
             Sono un Full-Stack Web Developer specializzato nello sviluppo di
             siti e applicazioni web.
           </p>
-          <a href="#" @click="openCV()" class="btn" target="_blank">APRI CV</a>
+          <a href="/src/assets/CV.pdf" class="btn" download>SCARICA CV</a>
         </div>
       </div>
       <Socials />
@@ -27,16 +27,16 @@
 
 <script>
 import Socials from "../components/Socials.vue";
-import CV from "../assets/CV.pdf";
+// import CV from "../assets/CV.pdf";
 export default {
   components: {
     Socials,
   },
-  methods: {
-    openCV() {
-      window.location.href = CV;
-    },
-  },
+  // methods: {
+  //   openCV() {
+  //     window.location.href = CV;
+  //   },
+  // },
 };
 </script>
 
